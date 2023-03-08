@@ -14,6 +14,11 @@
 		F376B1AC29B852170008667B /* ICS224_MidtermJumpstartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1AB29B852170008667B /* ICS224_MidtermJumpstartTests.swift */; };
 		F376B1B629B852170008667B /* ICS224_MidtermJumpstartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1B529B852170008667B /* ICS224_MidtermJumpstartUITests.swift */; };
 		F376B1B829B852170008667B /* ICS224_MidtermJumpstartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1B729B852170008667B /* ICS224_MidtermJumpstartUITestsLaunchTests.swift */; };
+		F376B1C529B858370008667B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1C429B858370008667B /* GridView.swift */; };
+		F376B1C729B858640008667B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1C629B858640008667B /* ListView.swift */; };
+		F376B1C929B858BF0008667B /* SomeItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1C829B858BF0008667B /* SomeItems.swift */; };
+		F376B1CB29B858D70008667B /* SomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1CA29B858D70008667B /* SomeItem.swift */; };
+		F376B1CD29B86E4A0008667B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376B1CC29B86E4A0008667B /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		F376B1B129B852170008667B /* ICS224_MidtermJumpstartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICS224_MidtermJumpstartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F376B1B529B852170008667B /* ICS224_MidtermJumpstartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICS224_MidtermJumpstartUITests.swift; sourceTree = "<group>"; };
 		F376B1B729B852170008667B /* ICS224_MidtermJumpstartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICS224_MidtermJumpstartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F376B1C429B858370008667B /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F376B1C629B858640008667B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F376B1C829B858BF0008667B /* SomeItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeItems.swift; sourceTree = "<group>"; };
+		F376B1CA29B858D70008667B /* SomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeItem.swift; sourceTree = "<group>"; };
+		F376B1CC29B86E4A0008667B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				F376B19929B852140008667B /* ICS224_MidtermJumpstart */,
-				F376B1AA29B852170008667B /* ICS224_MidtermJumpstartTests */,
 				F376B1B429B852170008667B /* ICS224_MidtermJumpstartUITests */,
 				F376B19829B852140008667B /* Products */,
 			);
@@ -96,6 +105,12 @@
 			children = (
 				F376B19A29B852140008667B /* ICS224_MidtermJumpstartApp.swift */,
 				F376B19C29B852140008667B /* ContentView.swift */,
+				F376B1C629B858640008667B /* ListView.swift */,
+				F376B1C429B858370008667B /* GridView.swift */,
+				F376B1CC29B86E4A0008667B /* LoadingView.swift */,
+				F376B1C829B858BF0008667B /* SomeItems.swift */,
+				F376B1CA29B858D70008667B /* SomeItem.swift */,
+				F376B1AA29B852170008667B /* ICS224_MidtermJumpstartTests */,
 				F376B19E29B852170008667B /* Assets.xcassets */,
 				F376B1A029B852170008667B /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F376B1C729B858640008667B /* ListView.swift in Sources */,
 				F376B19D29B852140008667B /* ContentView.swift in Sources */,
+				F376B1C529B858370008667B /* GridView.swift in Sources */,
 				F376B19B29B852140008667B /* ICS224_MidtermJumpstartApp.swift in Sources */,
+				F376B1CB29B858D70008667B /* SomeItem.swift in Sources */,
+				F376B1CD29B86E4A0008667B /* LoadingView.swift in Sources */,
+				F376B1C929B858BF0008667B /* SomeItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
